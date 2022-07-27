@@ -1,0 +1,28 @@
+{
+  "name": "validador-links",
+  "version": "1.0.0",
+  "description": "Realiza leitura de arquivo de texto com um ou mais links e retorna array com link e status.",
+  "keywords": ["URL", "link", "url status"],
+  "homepage": "https://github.com/raphaelfogaca",
+  "author": "Raphael Fogaça",
+  "bugs": "https://github.com/raphaelfogaca",
+  "license": "ISC",
+  "main": "/src/cli.js",
+  "preferGlobal": true,
+  "bin": {
+    "validador-links": "/src/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "node-fetch": "^3.2.9"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.9",
+    "jest": "^28.1.3"
+  }
+}
